@@ -3,7 +3,7 @@ services:
     build: .
     container_name: mertolatrekkingroutes-react-dashboard
     ports:
-      - "3000:3000"
+      - "11006:3000"
     volumes:
       # Montar o código fonte para hot reload
       - .:/app
